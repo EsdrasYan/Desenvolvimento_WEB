@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<title>JavaScript</title>
+
+	<script>
+
+
+
+		// Netflix
+
+		var video = Array()
+
+
+		video[1] = Array()
+		video[2] = 'lost in space'
+		video[3] = 'suspense'
+
+		function getvideo(video){
+			try{
+			// lógica
+			// http - erros
+	
+
+		
+			console.log(video[0]['nome'])
+
+            } catch(erro) {
+            	//tratarErro(erro)
+            	//console.log(erro)
+            	console.log('Agora sim podemos tratar esse erro ')
+            	throw new Error('Houve um erro mas não se preocupe, estamos trabalhando nisso agora. ') // NO MOMENTO QUE O JAVASCRIPT IDENFICAR O OBJETO, E O LANÇAMENTO DESSE OBJETO IRÁ FORÇAR UMA EXCEÇÃO DENTRO DO CÓDIGO FORÇANDO A INTERRUPÇÃO DO SCRIPT.
+
+
+            } finally{
+            	console.log('Sempre passa por aqui (try / catch)')
+            }
+
+			console.log('A aplicação não morreu. ')
+
+           
+
+		}
+
+		function tratarErro(erro){
+			//lògica para registar o erro no servidor
+			console.log(erro)
+		}
+		
+        getvideo(video)
+
+
+	</script>
+	
+</head>
+<body>
+
+</body>
+</html>

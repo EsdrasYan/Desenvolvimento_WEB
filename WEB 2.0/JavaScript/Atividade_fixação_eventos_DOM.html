@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JavaScript</title>
+
+	
+
+
+	<script>
+
+		function acionaCampo(){
+			document.getElementById('campo').style.background ="yellow"
+		}
+		
+		function validaCampo(){
+
+			let valorCampo = document.getElementById('campo').value
+		
+		
+		if (valorCampo.length < 3) {  // .length retorna a quantidade de atributos.
+			document.getElementById('campo').style.background ="red"
+
+		}else{
+			document.getElementById('campo').style.background ="blue"
+		}
+
+	 }
+
+		
+	</script>
+		
+			
+
+</head>
+<body>
+
+	<input id="campo" type="text" onfocus="acionaCampo()" onblur="validaCampo()"  /> <!--Evento "ONFOCUS" ocorre quando o objeto recebe o foco. EX: quando você clica em um campo para digitar algo.
+
+	 Evento "ONBLUR" ocorre quando um objeto perde o foco. EX: você tem 2 campos de textos para digitar seus dados. O primeiro você deve digitar seu nome e o outro seu email. Após digitar o seu nome você terá que digitar o email, certo? se você tivesse colocado um evento "ONBLUR" no campo onde digitou o nome, ao clicar no campo de email uma ação seria disparada. --> 
+
+</body>
+</html>

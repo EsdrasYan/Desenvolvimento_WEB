@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>javaScript</title>
+
+	<script>
+		
+    function exibirArtigo(id, callbacksucesso, callbackErro){
+    	//Lógica: Recuperar o id via requisição http.
+
+    	if ( true ) {
+    		callbacksucesso('Funções de callback em js', 'Funções de callback são muito utilizadas...')
+
+    	} else {
+    		callbackErro(' Erro ao recuperar os dados')
+    	}
+     }
+
+    	var callbacksucesso = function (titulo, descricao){
+    		document.write('<h1> ' + titulo + ' </h1>' )
+    		document.write('<hr />')
+    		document.write('<p>' + descricao + ' </p>')
+
+    	}
+
+    	var callbackErro = function(erro){
+    		document.write('<p><b>Erro:</b>' + erro + '</p>')
+    	}
+
+    	exibirArtigo(1, callbacksucesso, callbackErro )
+
+
+
+
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>

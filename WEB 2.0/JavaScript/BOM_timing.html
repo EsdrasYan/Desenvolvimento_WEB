@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<title>JavaScript</title>
+
+     <script>
+     	//setTimeout(function(){document.write('Teste')}, 2000) // DEPOIS DE 2 SEGUNDOS É QUE O COMANDO IRÁ SER EXECUTADO.
+     	
+
+        var i = 5
+
+       var x = setInterval(function(){
+       document.write(i) 
+       i--
+
+       if(i === 0){
+       	//window.location.reload()
+       	clearInterval(x) //PARA QUALQUER COMANDO QUE ESTEJA DETERMINADO PELA FUNÇÃO SETINTERVAL.
+       }
+       }, 1000) //COMANDO QUE DEIXA A AÇÃO CONTINUA A CADA PERIODO DE TEMPO INFOMARDO.
+
+     </script>
+
+
+
+</head>
+
+<body>
+
+</body>
+
+</html>

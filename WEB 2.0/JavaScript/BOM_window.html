@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<title>JavaScript</title>
+
+	<script>
+
+		// É UM OBJETO FORMADO PELO BROWSER QUE INCORPORA ARVORÉ DE ELEMENTOS HTML DA PÁGINA. INTERAÇÃO COM RECURSOS DO BROWSER.
+
+     var janela 
+     function abrirPopUp(){
+     	janela = window.open('', 'New_tab', 'width=200, heigth=100')
+     }
+
+     function fecharPopUp(){
+     	janela.close() // É PRECISO DE UMA VARIÁVEL PARA EXECUTAR A FUNÇÃO.
+     }
+
+
+
+	</script>
+
+</head>
+
+<body>
+
+	<BUTTON onclick="abrirPopUp()">Abrir janela</BUTTON>
+	<BUTTON onclick="fecharPopUp()">Fechar janela</BUTTON>
+	<BUTTON onclick="window.print()">Imprimir Página</BUTTON>
+
+</body>
+
+</html>

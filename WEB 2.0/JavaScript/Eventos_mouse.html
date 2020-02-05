@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JavaScript</title>
+
+	<script> 
+
+		function acao1(){
+           alert('Elemento clicado')
+
+		}
+		function acao2(){
+           alert('O cursor do mouse deixou a região do elemento. ')
+
+		}
+
+
+	</script>
+</head>
+
+
+<body>
+
+	
+
+	<!--<div onclick="acao()" style="background: #ccc; height: 150px; width: 150px"></div>--> <!-- Função onclick = é usada para disparar comandos assim que houve um click em determinada situação na página.-->
+
+	<!--<div ondblclick="acao()" style="background: #ccc; height: 150px; width: 150px"></div> //comando acionado quando for dado dois clicks rápidos.-->
+
+	<!--<div onmouseup="acao()" style="background: #ccc; height: 150px; width: 150px"></div> // É acionado quando o click sobre um determinado elemento é liberado.-->
+
+	<!--<div onmouseover="acao()" style="background: #ccc; height: 150px; width: 150px"></div> //É acionado quando o curso do mouse sobrepoe a região do elemento dentro do browser.-->
+
+	<div onclick="acao1()" onmouseout="acao2()" style="background: #ccc; height: 150px; width: 150px"></div><!-- //É disparado quando o cursor do mouse sai da região da página ocupada pelo elemento html. (Ou seja é disparado quando sai da região que é determinadar pelo comando) Elemento pode ser combinado.-->
+
+
+
+</body>
+</html>
+

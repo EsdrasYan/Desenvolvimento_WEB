@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JavaScript</title>
+
+	<script>
+
+		/*3 escopos: global, função e o bloco.
+
+		Global: escopo do script como um todo.
+
+		Função: corresponde ao conteúdo contido dentro de um bloco de função.
+
+		Bloco: Instruções contidas dentros de comandos, exemplo: if, switch.
+
+		*/
+
+		// Os escopos de bloco tem acesso a tipos de variáveis do escopo global.
+
+		// Variáveis definidas dentro de escopo de bloco como "var" sofrem elevação e automáticamente entram no escopo global dando permissão para serem acessadas por funções fora do escopo do bloco, isso porque o escopo de bloco está dentro do escopo global.
+
+		var serie = 'Friends'
+
+		//escopo de bloco
+		if (true) {
+			var serie2 = 'Game os Thrones'
+			document.write(serie + '<br/>')
+
+		}
+
+		document.write(serie2 )
+
+		document.write('<br />')
+
+		// Ao contrário dos escopos globais e de bloco serem acessados por comandos, os escopos de função não gozam desse privilégio, eles somente são acessados pela função.
+
+		function x() {
+			var serie3 = 'The Walking Dead'
+			document.write(serie +'<br/>')
+			document.write(serie2 +'<br/>')
+		}
+
+		//document.write(serie3)
+
+		x ()
+
+
+		
+
+	</script>
+
+</head>
+<body>
+
+</body>
+</html>

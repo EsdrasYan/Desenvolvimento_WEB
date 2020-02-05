@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JavaScript</title>
+
+	<script >
+		var lista_frutas = Array()
+
+		lista_frutas[0] = 'Banana'
+		lista_frutas[1] = 'Maçã'
+		lista_frutas[2] = 'Morango'
+		lista_frutas[3] = 'Uva'
+
+		
+		/*console.log(lista_frutas.indexOf('Morango')) // retorna a posição que está contido o dado.
+
+		if (lista_frutas.indexOf('Uva') === -1) {
+			console.log('Elemento Não existe')
+
+		}else{
+			console.log('Elemento existe e está na posição: ' + lista_frutas.indexOf('Uva'))
+		}
+        */
+
+
+        //Outra forma de melhorar a escrita é declarar o método indexOf em uma variável
+
+		var auxiliar = lista_frutas.indexOf('Banana')
+
+		
+
+        if (auxiliar === -1) {//"-1 é o resultado que o dom retornar quando não encontra o objeto. "
+			console.log('Elemento Não existe')
+
+		}else{
+			console.log('Elemento existe e está na posição: ' + auxiliar)
+		}
+
+
+		
+
+
+
+	</script>
+
+</head>
+
+<body>
+
+</body>
+
+</html>

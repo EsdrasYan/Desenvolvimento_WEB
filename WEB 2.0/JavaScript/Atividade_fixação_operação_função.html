@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<title>JavaScript</title>
+
+
+	<script>
+
+		var num1 = prompt('Digite o primeiro número: ')
+		var num2 = prompt('Digite o segundo número: ')
+		var operacao = prompt(' Digite a operação desejada')
+		
+		function calculo (num1, num2, operacao){ 
+
+		var num1 = parseFloat(num1); // converção da entrada que é string pra float.
+
+		var num2 = parseFloat(num2); // converção da entrada que é string pra float.
+
+
+		var resultado = 0; // atribuir o resultado a 0 para manuseio de dados.
+
+		if (operacao == 'soma') {
+
+			resultado = num1 + num2;
+
+		 }if (operacao == 'subtração') {
+
+			resultado = num1 - num2;
+		}	
+		
+		return resultado;
+
+		}
+
+		document.write('O Resultado é: ' + calculo(num1, num2, operacao ))
+
+
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>

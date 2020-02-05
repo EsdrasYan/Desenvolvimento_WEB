@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<title>JavaScript</title>
+
+	<script>
+		//var listaConvidados =['jorge', 'jamilton', 'josé', 'Ana', 'Maria']
+
+		var listaConvidados = Array()
+
+		listaConvidados['a'] = 'jorge'
+		listaConvidados[10]  = 'jamilton' 
+        listaConvidados['zebra'] = 'josé'
+        listaConvidados[-1] = 'Ana'
+        listaConvidados[true] = 'Maria'
+        
+        console.log(listaConvidados)
+
+		for(var x in listaConvidados){ // Variável x vai receber a cada interação o valor do índice de cada posição do array.  
+        console.log('índice ' + x + ' valor ' + listaConvidados[x])
+
+		}
+
+
+	</script>
+
+</head>
+
+<body>
+
+</body>
+
+</html>

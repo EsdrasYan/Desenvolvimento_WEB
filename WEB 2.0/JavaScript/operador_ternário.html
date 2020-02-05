@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>JavaScript</title>
+	<meta charset="utf-8">
+
+	<script >
+		var nota = prompt('Digite a nota do aluno: ')
+	var faltas = prompt('Digite a quantidade de faltas: ')
+
+	var media = 7
+	var faltas_maximas = 15
+			/*
+			if (nota >= media && faltas <= faltas_maximas) {
+				document.write('Aprovado')
+			}else {
+		    	document.write('Reprovado')
+		    	*/
+
+	var resultado = (nota >= media && faltas <= faltas_maximas) ? 'Aprovado' : 'Reprovado' // valores verdeiros ficam a esquerda e valores falsos ficam a direita. Lembrando que esse operador se iguala ao operador (if/else). Lembrando que nos operados ternários não consig fazer operações mais complexas, diferente dos operadores (if/else).
+
+	document.write(resultado)
+
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+/*SELETOR UNIVERSAL
+{
+	border: 1px solid blue;
+}
+
+h1{
+	color: orange;
+}
+
+.laranja{
+	color: orange;
+}
+
+/*p.laranja{ /* Mesmo que defina a classe laranja em algum elemento html não será aplicada a formatação, pois, o seletor está implicito apenas em "p".
+	color: orange;
+}*/
+
+/*SELETOR ID*/
+#cabecalho{
+	border: 1px solid blue;
+}
+
+/*
+SELETOR FILHO
+
+li>a{
+	color: red;
+	text-decoration: none;
+}*/
+
+/*
+SELETOR DESCENDENTE
+
+div a{
+	color: green;
+	text-decoration: none;
+}*/
+
+/*
+SELETOR ADJACENTE
+
+
+h1 + p{
+	color: red;
+}*/
+
+/*
+SELETOR IRMÃO GERAL
+*/
+
+h1 ~ p{
+	color: red;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,199 @@
+* {
+	margin:0px;
+	padding: 0px;
+	font-family: 'Arial';
+}
+body{
+	margin: 0;
+	padding: 0;
+	background-color: orange;
+	background-size: cover;
+	font-family: "Comfortaa", sans-serif;
+}
+.cadastro{
+	width: 320px;
+	height: 420px;
+	border: 2px solid #000;
+	border-radius: 80px 80px 80px 80px;
+	color: #fff;
+	background-color: rgba(0,0,5,0.8);
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 60px 28px;
+}
+.usuario{
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: 112px;
+}
+h1{
+	margin: 0;
+	padding-top: 0;
+	padding-left: 0;
+	padding-bottom: 20px;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 25px;
+}
+.cadastro p {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+
+}
+.cadastro input{
+	width: 100%;
+	margin-bottom: 21px;
+
+}
+.cadastro input[type="text"], input[type="password"] {
+	border:none;
+	border-bottom: 1px solid white;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: white;
+	font-size: 16px;
+
+}
+.cadastro input [type="submit"] {
+	border: none;
+	outline: none;
+	height: 35px;
+	color:#000;
+	background: #fff;
+	border-radius: 20px;
+	transition: 0.2s;
+}
+.cadastro input[type="submit"]:hover {
+	cursor: pointer;
+	background: #ff4d4d;
+	transition: 0.2s;
+
+}
+.cadastro a{ 
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: #4b4b4b;
+	transition: 0.2s;
+ }
+ .cadastro a:hover {
+ 	transition: 0.2s;
+ 	color: #ff4d4d;
+ }
+
+#barra-menu {
+	height: 110px;
+	background: orange;
+}
+
+
+
+#container {
+	width: 90%;
+	margin: auto;
+}
+
+#menu ul li { 
+display: inline; 
+}
+
+#menu {
+	margin-top: -20px;
+}
+
+#menu ul li a {
+	color: #4b556a;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 2px;
+
+}
+
+#menu ul li a:hover {
+	color: white;
+}
+
+#logo img{
+	margin-left: 60px;
+}
+
+#principal {
+	margin-top: -90px;
+}
+
+#principal a {
+	color: #4b556a;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 2px;
+}
+
+#principal a:hover {
+	color: white;
+}
+
+.pesquisa{
+	width: 400px;
+	height: 40px;
+	display: table-cell;
+	margin-left: 430px;
+	margin-top: 35px; 
+	float: left;
+}
+
+#texto{
+	width: 350px;
+	height: 40px;
+	float: left;
+	font-family: 'Arial';
+	font-size: 20px;
+	margin-top: -26px;
+}
+
+.btn{
+	width: 30px;
+	height: 30px;
+	background-color: black;
+	padding: 5px 10px;
+	cursor: pointer;
+	margin-top: -30px;
+}
+
+#container-conteudo {
+	padding-top: 130px;
+	width: 80%;
+	margin: auto;
+}
+
+.area-texto-principal {
+	width: 500px;
+	font-size: 28px;
+	text-align: center;
+}
+
+.area-baner {
+	width: 400px;
+	float: right;
+	padding-right: 200px;
+}
+
+.area-texto-principal a {
+	text-decoration: none;
+}
+
+.area-texto-principal a:hover {
+	color: orange;
+}
+
+#baner {
+	margin-top: -70px;
+	width: 600px;
+}

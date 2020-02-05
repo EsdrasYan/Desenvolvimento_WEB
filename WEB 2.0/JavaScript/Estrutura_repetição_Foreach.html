@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<title>JavaScript</title>
+
+   <script>
+   	
+   	//var listaFuncionarios = ['Viviane', 'Rosângela', 'Miguel', 'Lucas', 'Fernanda']
+
+   	var listaFuncionarios = Array()
+
+   	listaFuncionarios['x'] = 'Viviane'
+   	listaFuncionarios[false] = 'Rosângela'
+   	listaFuncionarios[3] = 'Miguel'
+   	listaFuncionarios[27] = 'Lucas'
+   	listaFuncionarios[-12] = 'Fernanda'
+    
+    var f = function(valor, indice){ //COM A CRIAÇÃO DE UMA VARIÁVEL ATRIBUIDA A FUNÇÃO ELA PODE SER USADA COM OUTROS ARRAYS, MELHORANDO A VISUALIZAÇÃO DO CÓDIGO.
+
+    	console.log(valor,indice)
+    }
+
+    listaFuncionarios.forEach(f) // FOREACH ELE ATUA SOMENTE EM VALORES NÚMERICOS PARTINDO DE 0, NÃO PRECISA SER SEQUENCIAL, MAS PRECISA SER NÚMERO COMEÇANDO POR ZERO. CASO CONTRÁRIO, ELE DESCONSIDERA A POSIÇÃO DO ARRAY.
+
+    //listacoisas
+    
+
+     /*
+    console.log(listaFuncionarios)
+    document.write(listaFuncionarios[3])
+
+   	listaFuncionarios.forEach(function (valor, indice, array){ //É UMA FUNÇÃO DO "PROTOTYPE" DO OBJETO ARRAY. AGUARDA COMO PÂRAMETRO UMA FUNÇÃO DE CALBACK QUE VAI INDICAR COMO ELE DEVE ATUAR COM CADA UM DOS ÍNDICES DO ARRAY.
+      //LÓGICA
+
+      console.log('indice: ' + indice + ' | valor: ' + valor)
+      if(valor == 'Lucas'){
+      	array[indice] = 'Um novo valor' // INDICE ONDE TINHA O DADO 'LUCAS', AGORA PASSOU A SER: "UM NOVO VALOR".
+      }
+     // console.log(array)
+
+
+
+   	})
+   	console.log(listaFuncionarios)
+   	document.write('<br />' + listaFuncionarios[3])
+
+   	*/
+
+
+
+
+   </script>
+
+
+
+</head>
+
+<body>
+
+</body>
+
+</html>
